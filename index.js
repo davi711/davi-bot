@@ -3971,8 +3971,4 @@ case 'grupo':
 						console.log(color('[ERROR]','red'), 'eita bixo comando não registrado de', color(sender.split('@')[0]))
 					}
                            }
-
 		}
-
-
-starts()
