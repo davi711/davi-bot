@@ -3687,6 +3687,9 @@ break
 						client.groupMakeAdmin(from, mentioned)
 					}
 					break
+					case 'grupo':
+		if (args.length < 1) return reply ('Entra ai https://chat.whatsapp.com/BMrs4VGgqSsEHaizmgQUTn')
+		break
 				case 'rebaixar':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
@@ -3958,6 +3961,30 @@ break
 					}
 					client.sendMessage(from, options, text)
                     break
-case 'grupo':
-		if (args.length < 1) return reply ('Entra ai https://chat.whatsapp.com/BMrs4VGgqSsEHaizmgQUTn')
-		break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
