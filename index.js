@@ -1307,7 +1307,7 @@ if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar 
     }
     break
     
-				case 'semoji':
+				case 'emoji':
 					if (args.length < 1) return reply('onde está o emojis hum?')
 					ranp = getRandom('.png')
 					rano = getRandom('.webp')
@@ -3971,8 +3971,7 @@ case 'grupo':
 						console.log(color('[ERROR]','red'), 'eita bixo comando não registrado de', color(sender.split('@')[0]))
 					}
                            }
-		} catch (e) {
-			console.log('Error : %s', color(e, 'red'))
+
 		}
 	})
 }
