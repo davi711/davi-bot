@@ -3973,6 +3973,6 @@ case 'grupo':
                            }
 
 		}
-	})
+
 }
 starts()
