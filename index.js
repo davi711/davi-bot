@@ -3961,14 +3961,3 @@ break
 case 'grupo':
 		if (args.length < 1) return reply ('Entra ai https://chat.whatsapp.com/BMrs4VGgqSsEHaizmgQUTn')
 		break
-				default:
-					if (isGroup && isSimi && budy != undefined) {
-						console.log(budy)
-						muehe = await simih(budy)
-						console.log(muehe)
-						reply(muehe)
-					} else {
-						console.log(color('[ERROR]','red'), 'eita bixo comando não registrado de', color(sender.split('@')[0]))
-					}
-                           }
-		}
